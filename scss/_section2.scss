@@ -1,0 +1,86 @@
+.section2 {
+    width: 100%;
+    background: #F6F6F6;
+
+    &__flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__stil {
+        color: #000;
+        font-family: "Poppins";
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 69px;
+        margin-bottom: 59px;
+    }
+}
+
+.Inspiration {
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        &_stil {
+            color: #000;
+            font-family: "Poppins";
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-top: 10px;            
+        }
+    }
+
+    &__flex2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__button {
+        width: 148px;
+        height: 44px;
+        background: #000;
+
+        &_p {
+            color: #FFF;
+            text-align: center;
+            font-family: "Poppins";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            padding-top: 11px;
+        }
+    }
+}
+
+.button {
+
+    &__flex2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 10%;
+    }
+}
+
+
+.cursor {
+    cursor: pointer;
+}
+
+.Inspiration {
+
+    // .Inspiration__button
+
+    
+}
+
+
+

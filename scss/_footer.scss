@@ -1,0 +1,34 @@
+
+
+.footer {
+    width: 100%;
+    height: 330px;
+    background: #000;
+
+    &__flex {
+        display: flex;
+        justify-content: center;
+        column-gap: 55px;
+        margin-top: 10%;
+
+        &_stil a {
+            color: #FFF;
+            font-family: "Poppins";
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        &_p {
+            color: #7D7D7D;
+            text-align: center;
+            font-family: "Poppins";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-top: 10%;            
+        }
+    }
+}

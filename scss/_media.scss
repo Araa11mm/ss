@@ -1,0 +1,296 @@
+@media (max-width: 1400px) {
+
+    .Inspiration__flex {
+        column-gap: 15px;
+    }
+
+    .Inspiration__flex2 {
+        column-gap: 15px;
+    }
+
+    .section3 {
+        height: 180px
+    }
+
+    .cooperation__item {
+        column-gap: 7.5rem;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .cooperation__item {
+        column-gap: 6.5rem;
+    }
+}
+
+@media (max-width: 993px) {
+    .header__menu_stil a {
+        font-size: 13px;
+    }
+
+    .header__contact {
+        margin-top: 5px;
+    }
+    
+
+    .header__contact_stil {
+        font-size: 12px;
+    }
+
+    .header__img {
+        height: 608px
+    }
+
+    .header__h2 {
+        font-size: 61px;
+        margin-top: 30%;
+    }
+
+    .header__p {
+        font-size: 19px;
+    }
+
+    .section__h2 {
+        font-size: 50px;
+    }
+
+    .section2__stil {
+        font-size: 50px;
+    }
+
+    .photo3 {
+        display: none;
+    }
+
+    .photo8 {
+        display: none;
+    }
+
+    .cursor.curs4 {
+        display: none;
+    }
+
+    .cursor.curs10 {
+        display: none;
+    }
+
+    .section3 {
+        height: 130px;
+    }
+    .cooperation__item {
+        column-gap: 4.5rem;
+    } 
+
+    .FAQ__stil {
+        font-size: 50px;
+    }
+
+    .footer__flex_stil a {
+        font-size: 16px;
+    }
+
+    .footer__flex_p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 769px) {
+
+    .headerMobil {
+        max-width: 100%;
+        height: 107px;
+        background: #0E0E0E;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+        position: fixed; /* Я поменял absolute на fixed, чтобы меню оставалось на месте при прокрутке страницы */
+        right: 0;
+        top: 0;
+        width: 350px;
+        background-color: #0E0E0E;
+        transition: right 0.3s ease; /* Добавил анимацию для плавного открытия/закрытия меню */
+    }
+    
+    .menu--open {
+        display: block;
+        padding: 20px;
+        right: 0; /* Изменил на 0, чтобы показать меню при добавлении класса menu--open */
+    }
+    
+    .menu__list {
+        list-style: none; /* Убрал маркеры списка */
+        padding: 0;
+    }
+    
+    .menu__item {
+        margin-bottom: 10px; /* Просто для примера, можешь изменить в зависимости от дизайна */
+    }
+    
+    .menu__link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        display: block;
+        padding: 10px;
+    }
+    
+    .header__burger {
+        cursor: pointer; /* Добавил стиль курсора, чтобы указать, что это кликабельный элемент */
+    }
+
+    .cross {
+        margin-left: 17rem;
+    }
+    
+    
+
+
+    .header__contact {
+        display: none;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+    .header__img {
+        margin-top: 2%;
+    }
+
+    .section__p {
+        font-size: 13px;
+    }
+
+    .cursor.curs5 {
+        display: none;
+    }
+
+    .cursor.curs9 {
+        display: none;
+    }
+
+    .form-control {
+        width: 101%;
+    }
+
+    .input__groupStil {
+        width: 101%;
+    }
+    .Inspiration__flex_stil {
+        font-size: 13px;
+    }
+    
+    .section3 {
+        height: 90%;
+    }
+    .cooperation__item {
+        column-gap: 2.5rem
+    }
+
+    ol, ul {
+        padding-left: 0rem;
+    }
+
+    .footer__flex {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .header__img {
+        height: 540px;
+    }
+
+    .header__h2 {
+        font-size: 40px;
+    }
+
+    .header__p {
+        font-size: 16px;
+    } 
+
+    .section__h2 {
+        font-size: 40px;
+    }
+
+    .section__p  {
+        font-size: 11px;
+    }
+
+    .carousel.slide.pointer-event {
+        margin-top: 9%;
+    }
+
+    .button {
+        width: 111px;
+        height: 33px;
+    }
+
+    .button__p  {
+        font-size: 12px;
+        padding-top: 8px
+    }
+
+    .section2__stil {
+        font-size: 40px;
+        margin-top: 7%;
+    }
+
+    .Inspiration__button {
+        width: 111px;
+        height: 33px;
+    }
+
+    .Inspiration__button_p {
+        font-size: 12px;
+        padding-top: 7px
+    }
+}
+
+@media (max-width: 350px) {
+    .header__h2 {
+        margin-top: 52%;
+    }
+}
+
+@media (max-width: 992px) {
+    .none {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .none1 {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .none2 {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .rr {
+        display: none;
+    }
+
+}
+
+@media (max-width: 340px) {
+    
+    .section3 {
+        height: 69%;
+    }
+}
+
